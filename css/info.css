@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.eu {
+    width: 200px;
+    margin-bottom: 90px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2962FF; 
+    padding: 15px 5%;
+    height: 70px;
+}
+
+
+.logo, .logo a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.logo img {
+    height: 70px;          
+    width: auto;           
+    object-fit: contain;   
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFB300; 
+}
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #F8F9FA;
+    background-color: #1A1A24;
+}
+
+.normal {
+    background-color: #f7f7f7;
+}
+
+/* Aplicando as correções de gradiente e tamanho nas 3 variações de container */
+.container, .container2, .container3 {
+    display: flex;
+    flex-direction: column;
+    height: 65vh; 
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #1A1A24 100%), 
+                      url('/img/cosplaygames.jpg');
+}
+
+.container2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #1A1A24 100%), 
+                      url('/img/gamescom-imagem-4.jpg'); /* Altere o caminho da imagem do Dia 2 se desejar */
+}
+
+.container3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #1A1A24 100%), 
+                      url('/img/esports3.jpg'); /* Altere o caminho da imagem do Dia 3 se desejar */
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(251, 255, 255);
+}
+
+.title {
+    font-size: calc(10px + 3vw);
+    text-shadow: 0 0 15px rgb(2, 2, 2);
+}
+
+.title p {
+    font-size: calc(10px + 1vw);
+    color: rgb(254, 255, 255);
+}
+
+.countdown {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countdown h1 {
+    font-size: calc(15px + 8vw);
+    text-shadow: 0 0 10px rgb(189, 185, 185);
+}
+
+.separar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A24; 
+    padding: 15px 5%;
+    height: 5%;
+}
+
+.dias {
+    color: #f3f3ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #1A1A24;
+    width: 100%;
+    padding: 60px 10% 40px 10%; 
+}
+
+#dia_1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.Info_Eventos {
+    background-color: #1A1A24;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Horários, .Local, .Avisos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+    max-width: 360px;
+}
+
+.Topico {
+    font-size: 2.2rem;
+    color: #2962FF;
+    margin-bottom: 20px;
+}
+
+.Lista {
+    list-style: none;
+    width: 100%;
+}
+
+.Lista li {
+    font-size: 1.1rem;
+    color: #F8F9FA;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 18px;
+}
+
+.Lista li::before {
+    content: "•";
+    color: #FFB300;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 900px) {
+    .Info_Eventos {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .Horários, .Local, .Avisos {
+        max-width: 100%;
+        width: 100%;
+    }
+}

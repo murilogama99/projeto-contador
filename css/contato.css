@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2962FF; 
+    padding: 15px 5%;
+    height: 70px;
+}
+
+
+.logo, .logo a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.logo img {
+    height: 70px;          
+    width: auto;           
+    object-fit: contain;   
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFB300; 
+}
+body {
+    background-color: #1A1A24;
+    color: #F8F9FA;
+}
+
+.normal {
+    background-color: #f7f7f7;
+}
+
+.contact-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/funcionario.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.bge-logo {
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.info {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.form-card {
+    background-color: #1e1e2a; 
+    border: 2px solid #2d2d3f;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.titulo-form {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    background-color: #12121a;
+    border: 1px solid #2d2d3f;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input {
+    border-radius: 30px;
+}
+
+.input-group textarea {
+    border-radius: 12px;
+    resize: none;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #2962FF; 
+}
+
+.env-botao {
+    width: 60%;
+    background-color: #00C853; 
+    color: #FFFFFF; 
+    border: none;
+    height: 44px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.env-botao:hover {
+    background-color: #01471e;
+    transform: translateY(-2px);
+}
