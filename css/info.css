@@ -71,17 +71,17 @@ body {
 
 .container {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #1A1A24 100%), 
-                      url('/img/cosplaygames.jpg');
+                      url('img/cosplaygames.jpg');
 }
 
 .container2 {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #1A1A24 100%), 
-                      url('/img/gamescom-imagem-4.jpg'); /* Altere o caminho da imagem do Dia 2 se desejar */
+                      url('img/gamescom-imagem-4.jpg'); /* Altere o caminho da imagem do Dia 2 se desejar */
 }
 
 .container3 {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #1A1A24 100%), 
-                      url('/img/esports3.jpg'); /* Altere o caminho da imagem do Dia 3 se desejar */
+                      url('img/esports3.jpg'); /* Altere o caminho da imagem do Dia 3 se desejar */
 }
 
 h3 {

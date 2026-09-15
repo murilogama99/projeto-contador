@@ -64,7 +64,7 @@ body {
     justify-content: space-evenly;
     text-align: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1A1A24 100%), 
-                url('/img/fundo-expo.png') no-repeat center center;
+                url('img/fundo-expo.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -216,17 +216,17 @@ h3 {
 
 .dia1 {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1A1A24 100%), 
-                      url('/img/cosplay.jpg');
+                      url('img/cosplay.jpg');
 }
 
 .dia2 {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1A1A24 100%), 
-                      url('/img/goat.jpg');
+                      url('img/goat.jpg');
 }
 
 .dia3 {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1A1A24 100%), 
-                      url('/img/esports.jpeg');
+                      url('img/esports.jpeg');
 }
 
 @media (max-width: 900px) {
@@ -286,43 +286,43 @@ h3 {
 
 
 .influ1 {
-    background-image: url('/img/alanzoka.jpg');
+    background-image: url('img/alanzoka.jpg');
 }
 
 .influ2 {
-    background-image: url('/img/castrin.jpg');
+    background-image: url('img/castrin.jpg');
 }
 
 .influ3 {
-    background-image: url('/img/Brksedu.jpg');
+    background-image: url('img/Brksedu.jpg');
 }
 
 .influ4 {
-    background-image: url('/img/pedroraul.jpg');
+    background-image: url('img/pedroraul.jpg');
 }
 
 .influ5 {
-    background-image: url('/img/ishowspeed.jpg');
+    background-image: url('img/ishowspeed.jpg');
 }
 
 .influ6 {
-    background-image: url('/img/mrbeast.jpg');
+    background-image: url('img/mrbeast.jpg');
 }
 
 .influ7 {
-    background-image: url('/img/goularte.jpg');
+    background-image: url('img/goularte.jpg');
 }
 
 .influ8 {
-    background-image: url('/img/guilhermebriggs.png');
+    background-image: url('img/guilhermebriggs.png');
 }
 
 .influ9 {
-    background-image: url('/img/Pactw.jpg');
+    background-image: url('img/Pactw.jpg');
 }
 
 .influ10 {
-    background-image: url('/img/davy\ jones.jpg');
+    background-image: url('img/davy\ jones.jpg');
 }
 
 /* Parte dos patrocinadores*/
@@ -367,54 +367,54 @@ h3 {
 
 
 .patro-logo1 {
-    background-image: url('/img/nintendo.jpg');
+    background-image: url('img/nintendo.jpg');
 }
 
 .patro-logo2 {
-    background-image: url('/img/playstation.png');
+    background-image: url('img/playstation.png');
 }
 
 .patro-logo3 {
-    background-image: url('/img/xbox.jpg');
+    background-image: url('img/xbox.jpg');
 }
 
 .patro-logo4 {
-    background-image: url('/img/corinthians.jpg');
+    background-image: url('img/corinthians.jpg');
     width: 100%;
 }
 
 .patro-logo5 {
-    background-image: url('/img/bradesco.webp');
+    background-image: url('img/bradesco.webp');
     width: 100%;
 }
 
 .patro-logo6 {
-    background-image: url('/img/criaesperanca.png');
+    background-image: url('img/criaesperanca.png');
     width: 100%;
 }
 
 .patro-logo7 {
-    background-image: url('/img/paralanches.jpg');
+    background-image: url('img/paralanches.jpg');
     width: 100%;
 }
 
 .patro-logo8 {
-    background-image: url('/img/mihoyoo.png');
+    background-image: url('img/mihoyoo.png');
     width: 100%;
 }
 
 .patro-logo9 {
-    background-image: url('/img/pao.png');
+    background-image: url('img/pao.png');
     width: 100%;
 }
 
 .patro-logo10 {
-    background-image: url('/img/roblox.jpg');
+    background-image: url('img/roblox.jpg');
     width: 100%;
 }
 
 .patro-logo11 {
-    background-image: url('/img/gov.jpg');
+    background-image: url('img/gov.jpg');
     width: 100%;
 }
 
