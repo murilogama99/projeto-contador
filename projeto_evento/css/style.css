@@ -241,9 +241,6 @@ h3 {
     }
 }
 
-/* ==========================================
-   -- Seção dos Influenciadores Alterada --
-   ========================================== */
 
 .influ-grid {
     display: flex;
@@ -328,47 +325,47 @@ h3 {
     background-image: url('/img/davy\ jones.jpg');
 }
 
-/* Parte dos patrocinadores do meu evento */
+/* Parte dos patrocinadores*/
 
 .patrocinadores-grid {
     background-color: #1A1A24;
     display: flex;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap; /* Faz quebrar a linha se houver muitos patrocinadores */
+    flex-wrap: wrap; 
     width: 100%;
     max-width: 1200px;
     padding: 0 20px 50px 20px;
 }
 
-/* Caixa externa de cada marca */
+
 .patro-box {
-    /* Exibe até 4 patrocinadores por linha no desktop */
+   
     flex: 0 0 calc(25% - 23px);
-    min-width: 200px; /* Impede que fiquem esmagados em telas menores */
+    min-width: 200px; 
 }
 
-/* O card retangular que carrega o logo como imagem de fundo */
+
 .patro-card {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 9; /* Formato retangular clássico para logos */
-    background-color: #242432; /* Um fundo levemente mais claro que o site para destacar o logo */
+    aspect-ratio: 16 / 9; 
+    background-color: #242432; 
     border-radius: 6px;
-    background-size: cover; /* Garante que o logo apareça inteiro sem cortar nas bordas */
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.9; /* Efeito de marca d'água discreta por padrão */
+    opacity: 0.9; 
     transition: opacity 0.3s, transform 0.3s;
 }
 
-/* Efeito ao passar o mouse: o logo acende e ganha um leve destaque */
+
 .patro-box:hover .patroc-card {
     opacity: 1;
-    transform: translateY(-3px); /* Sobe de leve para dar sensação de clique */
+    transform: translateY(-3px); 
 }
 
-/* Imagens dos seus patrocinadores */
+
 .patro-logo1 {
     background-image: url('/img/nintendo.jpg');
 }
@@ -421,7 +418,7 @@ h3 {
     width: 100%;
 }
 
-/* Ajuste rápido para celulares: deixa 2 por linha se a tela for muito pequena */
+
 @media (max-width: 600px) {
     .patro-box {
         flex: 0 0 calc(50% - 15px);

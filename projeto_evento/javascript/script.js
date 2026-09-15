@@ -43,7 +43,7 @@ const contagemRegressiva = (tempo) => {
 
 const tempoRestante = () => {
 
-    const dataEvento = new Date('2026-09-10 12:30:00');
+    const dataEvento = new Date('2026-09-16 12:30:00');
     const hoje = Date.now();
 
     return Math.floor((dataEvento - hoje) / 1000);
@@ -61,5 +61,9 @@ if (elementoContador) {
 
 //botão para levar aos ingressos
 document.getElementById('btnCadastrar').addEventListener('click', function() {
+    window.location.href = 'ingresso.html';
+});
+
+document.getElementById('btnInfo').addEventListener('click', function() {
     window.location.href = 'ingresso.html';
 });
